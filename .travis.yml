@@ -1,0 +1,15 @@
+language: ruby
+rvm:
+- 2.0.0
+script: bundle exec middleman build --verbose
+deploy:
+  provider: s3
+  access_key_id: AKIAJXBTQEB7PE7CRYSA
+  secret_access_key:
+    secure: Yh79U52fHJI1BtgGuDq5d4p6C18KrMZZUDRa+0VCrMwP+GIAhrUshYG9IhwI7J3DjeAShR+jekynM88moKgNoSOp052XYPYJGe1bqX6eT96d0U33lsKPCqMeq+cjW9mUsxQOqUTAPxVd/UcFE0JjPsuAhyGFjQEHjCP9cNLtg/w=
+  bucket: chuangslaundry.asia
+  region: eu-west-1
+  local-dir: build
+  skip_cleanup: true
+  on:
+    repo: timstott/lotus-rouge
