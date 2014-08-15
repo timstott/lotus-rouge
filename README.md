@@ -4,7 +4,7 @@ Help us build Ellen's dream site to promote her recently acquired laundry busine
 
 ## Contribute
 
-The site needs to be dreadful bot not the code base.
+The site needs to be dreadful but not the code base.
 
 Layout using `table` only. Go wild with with `marquee` tag.
 
