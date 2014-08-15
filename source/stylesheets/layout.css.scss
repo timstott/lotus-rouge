@@ -1,7 +1,7 @@
 #container {
   width: 800px;
-  margin: auto;
-
+  min-height: 500px;
+  margin: 50px auto;
 }
 
 table, th, td {
@@ -10,3 +10,6 @@ table, th, td {
   border-spacing: 5px;
 }
 
+#header, #footer {
+  height: 60px;
+}

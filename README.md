@@ -9,3 +9,6 @@ The site needs to be dreadful bot not the code base.
 Layout using `table` only. Go wild with with `marquee` tag.
 
 Avoid avoid inline CSS at all costs.
+
+Only allowed to use CSS color names, [comprehensive
+list](http://www.w3schools.com/cssref/css_colornames.asp).
