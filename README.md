@@ -1,4 +1,4 @@
-# Chuangs Laundry
+# Chuangs Laundry [![Build Status](https://travis-ci.org/timstott/lotus-rouge.svg?branch=master)](https://travis-ci.org/timstott/lotus-rouge)
 
 Help us build Ellen's dream site to promote her recently acquired laundry business.
 
